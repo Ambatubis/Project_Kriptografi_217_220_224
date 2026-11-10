@@ -1,0 +1,11 @@
+PySide6
+cryptography
+argon2-cffi
+Pillow
+PyMySQL
+python-dotenv
+psutil
+pytest
+winrt-runtime
+winrt-Windows.Foundation
+winrt-Windows.Security.Credentials.UI
