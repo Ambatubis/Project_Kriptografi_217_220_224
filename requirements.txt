@@ -1,0 +1,10 @@
+customtkinter>=5.2.2
+cryptography>=42.0.0
+argon2-cffi>=23.1.0
+Pillow>=10.0.0
+pytest>=8.0.0
+
+# Windows Hello (hanya Windows). Dipasang otomatis di Windows:
+winrt-runtime>=2.0.0; sys_platform == "win32"
+winrt-Windows.Foundation>=2.0.0; sys_platform == "win32"
+winrt-Windows.Security.Credentials.UI>=2.0.0; sys_platform == "win32"
