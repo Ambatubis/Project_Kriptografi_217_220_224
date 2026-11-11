@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SecureVault
 **Rancang Bangun Aplikasi Brankas Digital Berbasis Desktop dengan Integrasi Super Enkripsi, Steganografi, dan Blockchain Sederhana untuk Pengamanan Data.**
 
@@ -77,3 +78,24 @@ Branch: `main` (stabil) ← `develop` ← `feature/auth`, `feature/crypto`, `fea
 - **Windows Hello** adalah gerbang akses, bukan sumber kunci enkripsi.
 - Lupa password = data tidak dapat dipulihkan (konsekuensi desain).
 - **Steganografi**: gambar RGBA diubah ke RGB (alpha dibuang). Hasil stego harus disimpan/dikirim sebagai PNG tanpa kompresi ulang.
+=======
+# CRYPTOVAULT – Secure Digital Vault Application
+
+Aplikasi desktop (PySide6) untuk menyimpan dan melindungi pesan serta berkas digital
+dengan kombinasi kriptografi klasik dan modern. Proyek akhir mata kuliah Kriptografi.
+
+**Status:** Tahap 1 selesai (kerangka proyek). Belum ada kode fitur.
+
+## Arsitektur
+3-Layer: Presentation -> Business Logic -> Data Access -> MySQL / File Storage.
+Detail lengkap: `docs/TAHAP1_ARSITEKTUR.md`.
+
+## Persiapan cepat (Windows, PowerShell)
+```powershell
+python --version          # harus 3.12.x
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env    # lalu isi nilai di .env
+```
+>>>>>>> 8555ce5ff93d19f0a57a2165c4501d606ba0c81d

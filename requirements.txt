@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 customtkinter>=5.2.2
 cryptography>=42.0.0
 argon2-cffi>=23.1.0
@@ -8,3 +9,16 @@ pytest>=8.0.0
 winrt-runtime>=2.0.0; sys_platform == "win32"
 winrt-Windows.Foundation>=2.0.0; sys_platform == "win32"
 winrt-Windows.Security.Credentials.UI>=2.0.0; sys_platform == "win32"
+=======
+PySide6
+cryptography
+argon2-cffi
+Pillow
+PyMySQL
+python-dotenv
+psutil
+pytest
+winrt-runtime
+winrt-Windows.Foundation
+winrt-Windows.Security.Credentials.UI
+>>>>>>> 8555ce5ff93d19f0a57a2165c4501d606ba0c81d
